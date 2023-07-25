@@ -12,4 +12,3 @@ for i in range(len(s)):
         mpfs = pfs
 print("Номер максималой цифры с начала:", mpfs)
 print("Номер максимальной цифры с конца:", mpfe)
-
