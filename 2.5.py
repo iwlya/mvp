@@ -5,7 +5,8 @@ def f():
     a = "Орел"
     b = "Решка"
     s = random.randint(0, 2)
-    if (n != 1 or n != 0): print("Конец игры...")
+    if (n != 1 or n != 0):
+        print("Конец игры...")
     elif (s == n):
         if s == 1:
             print("Верно.", b)
