@@ -11,5 +11,5 @@ def f(n):
     elif ((n < 20) & (n > 10)):
         print("Спасибо")
 
-        
+
 print(f(0))
