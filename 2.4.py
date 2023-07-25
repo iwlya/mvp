@@ -1,5 +1,5 @@
 a, b, c = map(int, input("Введите значения коэффицнетов a, b, c:\n").split())
-d=b ** 2 - 4 * a * c
+d = b ** 2 - 4 * a * c
 if d < 0: print("Нет корней")
 elif d == 0:
     x = - b / (2 * a)
