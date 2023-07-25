@@ -1,6 +1,6 @@
 def f():
     while True:
-        arm = str(input("Введите число для проверки\n"))
+        arm = str(input("Введите число для проверки: "))
         k = 0
         for i in range(len(arm)):
             k += int(arm[i]) ** len(arm)
